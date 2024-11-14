@@ -1,0 +1,198 @@
+# from selenium import webdriver
+# from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as e
+# from selenium.webdriver.support.select import Select
+# from selenium.webdriver import Keys, ActionChains
+# from time import sleep
+#
+# serv_obj=Service("C:/Python_Selenium/Drivers/chromedriver-win64/chromedriver.exe")
+# option=webdriver.ChromeOptions()
+# option.add_experimental_option("detach", True)
+# option.add_argument("--disable-Notifications")
+# # option.add_argument("--headless")
+# # option.add_argument('--disable-gpu')
+# driver=webdriver.Chrome(service=serv_obj,options=option)
+# driver.get("https://demoapps.qspiders.com/ui/frames?sublist=0")
+# driver.maximize_window()
+# driver.implicitly_wait(10)
+#
+# inner_frame=driver.find_element(by=By.XPATH, value="//iframe[@class='w-full h-96']")
+# driver.switch_to.frame(inner_frame)
+# driver.find_element(by=By.ID, value="username").send_keys("Mahesh")
+# driver.find_element(by=By.ID, value="password").send_keys("Test@123")
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//button[text()='Login']").click()
+# sleep(1)
+# #coming out:
+# driver.switch_to.default_content()
+#
+# dropdown=Select(driver.find_element(by=By.ID, value="options"))
+# dropdown.select_by_visible_text("DataBase")
+# sleep(2)
+# driver.back()
+#
+# #ui option using default content:
+# driver.find_element(by=By.XPATH, value="//a[text()='Nested iframe']").click()
+# sleep(1)
+# Inner_frame=driver.find_element(by=By.XPATH, value="//iframe[@class='w-full h-96']")
+# driver.switch_to.frame(Inner_frame)
+# sleep(2)
+# Nested_frame=driver.find_element(by=By.XPATH, value="//div[@class='form_container']/..//iframe")
+# driver.switch_to.frame(Nested_frame)
+# sleep(2)
+# driver.find_element(by=By.ID,value="email").send_keys("RonyMahesh@gmail.com")
+# sleep(1)
+# driver.find_element(by=By.ID, value="password").send_keys("Test@123")
+# sleep(1)
+# driver.find_element(by=By.ID, value="confirm-password").send_keys("Test@123")
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//button[text()='Sign Up']").click()
+# sleep(2)
+# driver.switch_to.default_content()
+#
+# #Multiple frames:
+# driver.find_element(by=By.XPATH, value="//a[text()='Multiple iframe']").click()
+# sleep(1)
+# Multiple_frame=driver.find_element(by=By.XPATH, value="//section[@class='flex gap-10 w-full']/div[2]/iframe")
+# driver.switch_to.frame(Multiple_frame)
+# sleep(1)
+# driver.find_element(by=By.ID, value="username"). send_keys("SuperAdmin@gmail.com")
+# sleep(1)
+# driver.find_element(by=By.ID, value="password").send_keys("SuperAdmin@1234")
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//button[text()='Login']").click()
+# sleep(2)
+# driver.switch_to.default_content()
+# sleep(2)
+#
+#
+# #Nested with Multiple Frames:
+# driver.find_element(by=By.XPATH, value="//a[text()='Nested with Multiple iframe']").click()
+# sleep(2)
+# I_frame=driver.find_element(by=By.XPATH, value="//iframe[@class='w-full h-96']")
+# driver.switch_to.frame(I_frame)
+# sleep(2)
+# N_frame=driver.find_element(by=By.XPATH, value="//section[@class='main_form_container']//iframe")
+# driver.switch_to.frame(N_frame)
+# sleep(2)
+# Email_frame=driver.find_element(by=By.XPATH,value="//div[@class='frame-content']/form/div[1]/iframe")
+# driver.switch_to.frame(Email_frame)
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//label[text()='Email:']/..//input[@id='email']").send_keys("Super@gmail.com")
+# sleep(1)
+# driver.switch_to.parent_frame()
+# sleep(1)
+# Pwd_frame=driver.find_element(by=By.XPATH,value="//div[@class='frame-content']/form/div[2]/iframe")
+# driver.switch_to.frame(Pwd_frame)
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//label[text()='Password:']/..//input[@id='password']").send_keys("King_Nagarjuna")
+# sleep(1)
+# driver.switch_to.parent_frame()
+# sleep(1)
+# Cfrm_frame=driver.find_element(by=By.XPATH,value="//div[@class='frame-content']/form/div[3]/iframe")
+# driver.switch_to.frame(Cfrm_frame)
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//label[text()='Confirm Password:']/..//input[@id='confirm']").send_keys("King_Nagarjuna")
+# sleep(1)
+# driver.switch_to.parent_frame()
+# sleep(1)
+# Sfrom_frame=driver.find_element(by=By.XPATH,value="//div[@class='frame-content']/form/div[4]/iframe")
+# driver.switch_to.frame(Sfrom_frame)
+# sleep(1)
+# driver.find_element(by=By.XPATH, value="//button[text()='Submit']").click()
+# sleep(2)
+# driver.switch_to.default_content()
+# driver.find_element(by=By.XPATH,value="//a[contains(@class,'flex items-center justify-center w-full h-full')]").click()
+# sleep(3)
+#
+# driver.close()
+#
+import os
+
+from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as e
+from selenium.webdriver.support.select import Select
+from selenium.webdriver import Keys, ActionChains
+from time import sleep
+location=os.getcwd()
+driver=webdriver.Chrome()
+option=webdriver.ChromeOptions()
+option.add_experimental_option("detach",True)
+option.add_argument("--disable-Notifications")
+# option.add_argument("--headless")
+# option.add_argument('--disable-gpu')
+preferences={"download.default_director":location,"plugins.always_open_pdf_externally":True}
+option.add_experimental_option("prefs",preferences)
+
+driver.get("https://demoapps.qspiders.com/ui?scenario=1")
+driver.implicitly_wait(10)
+driver.maximize_window()
+driver.get("https://demoapps.qspiders.com/ui?scenario=1")
+sleep(1)
+driver.find_element(By.XPATH,"//section[text()='Frames']").click()
+sleep(1)
+driver.find_element(By.XPATH,"//section[text()='iframes']").click()
+sleep(1)
+f=driver.find_element(By.XPATH,"//iframe[@class='w-full h-96']")
+driver.switch_to.frame(f)
+driver.find_element(By.ID,"username").send_keys("mahesh@gmail.com")
+sleep(1)
+driver.find_element(By.ID,"password").send_keys("123")
+sleep(1)
+driver.find_element(By.XPATH,"//button[text()='Login']").click()
+sleep(3)
+driver.find_element(By.XPATH,"//a[text()='Multiple iframe']").click()
+sleep(1)
+Multipl_frame=driver.find_element(By.XPATH,"//section[@class='flex gap-10 w-full']/div[1]/iframe")
+driver.switch_to.frame(Multipl_frame)
+driver.find_element(By.ID,"email").send_keys("Mahesh@gmail.com")
+sleep(1)
+driver.find_element(By.ID,"password").send_keys("123")
+sleep(1)
+driver.find_element(By.ID,"confirm-password").send_keys("123")
+sleep(1)
+driver.find_element(By.XPATH,"//button[text()='Sign Up']").click()
+sleep(1)
+driver.switch_to.default_content()
+sleep(1)
+M_f=driver.find_element(By.XPATH,"//section[@class='flex gap-10 w-full']/div[2]/iframe")
+driver.switch_to.frame(M_f)
+sleep(1)
+driver.find_element(By.ID,"username").send_keys("mahe@gmail.com")
+sleep(1)
+driver.find_element(By.ID,"password").send_keys("123")
+sleep(1)
+driver.find_element(By.XPATH,"//button[text()='Login']").click()
+sleep(1)
+driver.find_element(By.XPATH,"//a[text()='Nested iframe']").click()
+sleep(1)
+N_f=driver.find_element(By.XPATH,"//iframe[@class='w-full h-96']")
+driver.switch_to.frame(N_f)
+Nest_frame=driver.find_element(By.XPATH,"//div[@class='form_container']/iframe")
+driver.switch_to.frame(Nest_frame)
+sleep(1)
+driver.find_element(By.ID,"email").send_keys("wer@gmail.com")
+sleep(1)
+driver.find_element(By.ID,"password").send_keys("123")
+sleep(1)
+driver.find_element(By.ID,"confirm-password").send_keys('123')
+sleep(1)
+driver.find_element(By.XPATH,"//button[text()='Sign Up']")
+sleep(2)
+driver.switch_to.parent_frame()
+a=driver.find_element(By.XPATH,"//p[text()='Admin@gmail.com']").text
+print(a)
+b=driver.find_element(By.XPATH,"//p[text()='Admin@1234'][1]").text
+print(b)
+sleep(3)
+driver.switch_to.default_content()
+sleep(2)
+driver.close()
+
+
+

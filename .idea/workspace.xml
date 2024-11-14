@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4af563c7-5d86-40ea-ac21-27ed94c1a668" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/anaconda3/Lib/site-packages/selenium/webdriver/support/select.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hh0qTCigCSSCMTpNxRnYYpu2nS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest in AMR.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in Pytest_selenium.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_demo.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_demo2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AMR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Adapt_interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Alert2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Amazon_Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Appliocation_cmd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Blog_Practise_Automation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bootstrap_Dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Browser_cmds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Capture_Screenshot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Capturescreenshot_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Checkboxes_prcatise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Checking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Cookies_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DBoperations_Automation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DataDriven_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_DrivenTesting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_Driven_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Data_Driven_practise_UN_PWD.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DatePicker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DatePicker2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DatePicker_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Date_Picker_Qspiders_APP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DemoQspiders_FullAPP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Double_Click_Action.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Double_click_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Drag_and_Drop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Drag_drop_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dropdowns_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dummy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FileDownload_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File_Dowload_word_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File_Download.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File_Download_PDF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File_Download_Word.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File_Upload.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Filed_Ipload_Practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Findelement_FindElements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.First_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HandleCheckboxes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_AuthenticationPops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_BrokenLinks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_BrowserWindows(switch).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_Cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_Dropdowns.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_DynamicWebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_Frames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_InnerFrames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_Links.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_Notification_Popups.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Handle_WebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Headles_Testing_Mode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Headlessmode_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InnerFrames_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.KeyboardActions_pratcise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Links_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Locators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mouse_HoverAction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mouse_Hover_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mphasis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Navigational_cmd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NewBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Popups.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QSpiders_Shashank_Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReadData_Practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Read_Data_Driven.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RightClick_Action.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RightClick_prcatise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scrolling_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Scrollpage_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashak_MouseActions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashak_class3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Goibibo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Iframes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_KeyboardActions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Keyboard_Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Parent_Child_Relation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Screenshot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Task_Java_Scenario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_Task_StaleElement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_W3CSchools_Alert_Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_WebTable.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_WebTables_DEMOAPP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_alerts_Push_Notifications.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_pytho_selebium_TasK_Alternate_links.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_pytho_selebium_Tasl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_wait_cmd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Shashank_window_Handles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Slider_MouseAction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Slider_Range_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Start_shashank.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tabs_AND_Window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tabs_and_window_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestAutomate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestAutomate_FB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_Blog_pratise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TextvsGetAtribute.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Wait_cmd(Explicit).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Wait_cmd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebTables_DEMODATA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebTables_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WriteData_practise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Write_MultipleData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Writing_SameData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.XLUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Youtube_Automate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditional_cmnd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flipkart.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keyBoardActions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nibba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shshank_Task_textboxes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowPython Console.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowTODO.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python_Selenium/Selenium/PythonSelenium&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySaveCallSignatures" value="true" />
+    <option name="myDropIntoDebuggerOnFailedTests" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PythonSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af563c7-5d86-40ea-ac21-27ed94c1a668" name="Changes" comment="" />
+      <created>1718031193461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718031193461</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conditional_cmnd.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
