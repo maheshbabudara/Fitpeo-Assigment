@@ -4,8 +4,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as e
-from selenium.webdriver import  ActionChains, Keys
-from  time import sleep
+from selenium.webdriver import ActionChains, Keys
+from time import sleep
 
 try:
     option=Options()
