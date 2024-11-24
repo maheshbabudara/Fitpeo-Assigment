@@ -6,7 +6,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as e
 from selenium.webdriver import ActionChains, Keys
 from time import sleep
-
 try:
     option = Options()
     option.add_argument('--disable-notifications')
